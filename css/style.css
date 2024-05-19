@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    position: relative;
+}
+.header {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 15px 15px;
+}
+
+.header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:25px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+    border-radius: 4px;
+}
+.header h1{
+    margin-left: 2rem;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+
+.header h1.logo {
+    font-size: 38px;
+    font-weight: bold;
+}
+  
+
+.header a:hover {
+    background-color: rgb(142, 0, 150);
+    color: black;
+}
+  
+
+  
+
+.header-right {
+    float: right;
+}
+  
+
+@media screen and (max-width: 500px) {
+.header a {
+      float: none;
+      display: block;
+      text-align: left;
+}
+.header-right {
+      float: none;
+}
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+.centered {
+    font-size: 38px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.donate{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
